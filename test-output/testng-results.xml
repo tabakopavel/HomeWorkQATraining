@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="15" total="24" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite v_1.0" duration-ms="67586" started-at="2017-08-13T20:45:53Z" finished-at="2017-08-13T20:47:00Z">
+    <groups>
+    </groups>
+    <test name="Logging Test" duration-ms="7696" started-at="2017-08-13T20:45:53Z" finished-at="2017-08-13T20:46:00Z">
+      <class name="com.epam.ScenarioScenario">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.epam.ScenarioScenario@36d64342]" name="init" is-config="true" duration-ms="4440" started-at="2017-08-13T23:45:53Z" finished-at="2017-08-13T23:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.ScenarioScenario@36d64342]" name="login" duration-ms="2269" started-at="2017-08-13T23:45:57Z" finished-at="2017-08-13T23:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.epam.ScenarioScenario@36d64342]" name="clean" is-config="true" duration-ms="958" started-at="2017-08-13T23:45:59Z" finished-at="2017-08-13T23:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.epam.ScenarioScenario -->
+    </test> <!-- Logging Test -->
+    <test name="Creating Database Test" duration-ms="41149" started-at="2017-08-13T20:46:00Z" finished-at="2017-08-13T20:46:42Z">
+      <class name="com.epam.ScenarioScenario">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="init" is-config="true" duration-ms="3102" started-at="2017-08-13T23:46:00Z" finished-at="2017-08-13T23:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="login" duration-ms="2088" started-at="2017-08-13T23:46:04Z" finished-at="2017-08-13T23:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createDB(java.lang.String)[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="createDB" duration-ms="5298" started-at="2017-08-13T23:46:06Z" finished-at="2017-08-13T23:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[auth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDB -->
+        <test-method status="PASS" signature="createTable(java.util.List)[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="createTable" duration-ms="9725" started-at="2017-08-13T23:46:11Z" data-provider="tableStructure" finished-at="2017-08-13T23:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.String;@44d52de2, [Ljava.lang.String;@95e33cc, [Ljava.lang.String;@38604b81, [Ljava.lang.String;@1e44b638, [Ljava.lang.String;@7393222f, [Ljava.lang.String;@babafc2]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTable -->
+        <test-method status="PASS" signature="checkTable(java.util.List)[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="checkTable" duration-ms="16221" started-at="2017-08-13T23:46:21Z" data-provider="tableStructure" finished-at="2017-08-13T23:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.String;@50468873, [Ljava.lang.String;@146587a2, [Ljava.lang.String;@5f0e9815, [Ljava.lang.String;@76884e4b, [Ljava.lang.String;@126945f9, [Ljava.lang.String;@2a898881]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTable -->
+        <test-method status="PASS" signature="checkStorAndCollat(java.lang.String, java.lang.String)[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="checkStorAndCollat" duration-ms="3841" started-at="2017-08-13T23:46:37Z" finished-at="2017-08-13T23:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InnoDB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[utf8_general_ci]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStorAndCollat -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.epam.ScenarioScenario@2f7a2457]" name="clean" is-config="true" duration-ms="646" started-at="2017-08-13T23:46:41Z" finished-at="2017-08-13T23:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.epam.ScenarioScenario -->
+    </test> <!-- Creating Database Test -->
+    <test name="Creating Data Test" duration-ms="18701" started-at="2017-08-13T20:46:42Z" finished-at="2017-08-13T20:47:00Z">
+      <class name="com.epam.ScenarioScenario">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.epam.ScenarioScenario@22f71333]" name="init" is-config="true" duration-ms="2843" started-at="2017-08-13T23:46:42Z" finished-at="2017-08-13T23:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.ScenarioScenario@22f71333]" name="login" duration-ms="1744" started-at="2017-08-13T23:46:44Z" finished-at="2017-08-13T23:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[English]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createRows(java.util.List)[pri:0, instance:com.epam.ScenarioScenario@22f71333]" name="createRows" duration-ms="11046" started-at="2017-08-13T23:46:46Z" data-provider="tableData" finished-at="2017-08-13T23:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.String;@1edb61b1, [Ljava.lang.String;@ec2bf82]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRows -->
+        <test-method status="PASS" signature="checkRows(java.util.List)[pri:0, instance:com.epam.ScenarioScenario@22f71333]" name="checkRows" duration-ms="2188" started-at="2017-08-13T23:46:57Z" data-provider="tableData" finished-at="2017-08-13T23:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[Ljava.lang.String;@3c321bdb, [Ljava.lang.String;@24855019]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRows -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.epam.ScenarioScenario@22f71333]" name="clean" is-config="true" duration-ms="629" started-at="2017-08-13T23:47:00Z" finished-at="2017-08-13T23:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.epam.ScenarioScenario -->
+    </test> <!-- Creating Data Test -->
+  </suite> <!-- Test Suite v_1.0 -->
+</testng-results>

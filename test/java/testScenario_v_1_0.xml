@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Test Suite v_1.0">
+    <parameter name="login" value="root"/>
+    <parameter name="password" value="root"/>
+    <parameter name="language" value="English"/>
+    <parameter name="nameOfDB" value="auth"/>
+    <parameter name="nameOfTable" value="users"/>
+    <parameter name="storageEngine" value="InnoDB"/>
+    <parameter name="collation" value="utf8_general_ci"/>
+    <test name="Logging Test">
+        <classes>
+            <class name="com.epam.ScenarioScenario">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Creating Database Test">
+        <classes>
+            <class name="com.epam.ScenarioScenario">
+                <methods>
+                    <include name="login"/>
+                    <include name="createDB"/>
+                    <include name="createTable"/>
+                    <include name="checkTable"/>
+                    <include name="checkStorAndCollat"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Creating Data Test">
+        <classes>
+            <class name="com.epam.ScenarioScenario">
+                <methods>
+                    <include name="login"/>
+                    <include name="createRows"/>
+                    <include name="checkRows"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
